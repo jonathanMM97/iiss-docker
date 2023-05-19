@@ -4,7 +4,7 @@
 
 <div>
 <p style = 'text-align:center;'>
-<img src="imagenes/uca.png" alt="JuveYell" width="3000px">
+<img src="images/uca.png" alt="JuveYell" width="3000px">
 </p>
 <center>
 
@@ -62,7 +62,7 @@ Ahora si intentamos acceder al puerto 81 de localhost:
 
 <div>
 <p style = 'text-align:center;'>
-<img src="imagenes/dockerParte1.png" alt="JuveYell" width="3000px">
+<img src="images/dockerParte1.png" alt="JuveYell" width="3000px">
 </p>
 <center>
 
@@ -116,7 +116,7 @@ Donde ```image: mariadb:latest``` es la imagen usada para **mariadb** y ```- "82
 
 <div>
 <p style = 'text-align:center;'>
-<img src="imagenes/dockerParte2.png" alt="JuveYell" width="3000px">
+<img src="images/dockerParte2.png" alt="JuveYell" width="3000px">
 </p>
 <center>
 
@@ -127,5 +127,5 @@ Donde ```image: mariadb:latest``` es la imagen usada para **mariadb** y ```- "82
 
 <br>
 
-- [https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%201/docker-compose.yml](docker-compose.yml Parte 1)
-- [https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%202/docker-compose.yml](docker-compose.yml Parte 2)
+- ![https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%201/docker-compose.yml](docker-compose.yml Parte 1)
+- ![https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%202/docker-compose.yml](docker-compose.yml Parte 2)
