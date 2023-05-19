@@ -1,0 +1,24 @@
+version: '3.9'          
+services:
+  db:                    
+    image: mysql:5.7    
+    volumes:
+      - volumenDocker:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: example
+      MYSQL_DATABASE: drupal
+      MYSQL_USER: drupal
+      MYSQL_PASSWORD: drupal
+  drupal:
+    image: drupal:9-apache      
+    ports:
+      - "81:80"                   
+    volumes:
+      - volumenDocker:/var/www/html
+    environment:
+      DRUPAL_DATABASE_HOST: db
+      DRUPAL_DATABASE_NAME: drupal
+      DRUPAL_DATABASE_USER: drupal
+      DRUPAL_DATABASE_PASSWORD: drupal
+  volumes:
+    volumenDocker:
