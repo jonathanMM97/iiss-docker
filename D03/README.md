@@ -127,5 +127,5 @@ Donde ```image: mariadb:latest``` es la imagen usada para **mariadb** y ```- "82
 
 <br>
 
-- ![https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%201/docker-compose.yml](docker-compose.yml Parte 1)
-- ![https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%202/docker-compose.yml](docker-compose.yml Parte 2)
+- ![docker-compose.yml Parte 1](https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%201/docker-compose.yml)
+- ![docker-compose.yml Parte 2](https://github.com/jonathanMM97/iiss-docker/blob/main/D03/docker-composes/parte%202/docker-compose.yml)
